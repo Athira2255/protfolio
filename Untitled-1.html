@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Athira Rajan | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #0f172a, #020617);
+      color: #e2e8f0;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      background: linear-gradient(90deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    header p { margin-top: 10px; font-size: 1.2rem; }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #38bdf8;
+      border-left: 4px solid #38bdf8;
+      padding-left: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: rgba(30, 41, 59, 0.7);
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+    }
+    .skills span {
+      display: inline-block;
+      background: #1e293b;
+      margin: 5px;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.7;
+    }
+    a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Athira Rajan</h1>
+  <p>Computer Science Graduate | Web Developer</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    Motivated Computer Science graduate with experience in Python, Django, and web development. Passionate about building user-friendly applications and working in collaborative environments. Seeking opportunities to grow in an international tech environment.
+  </p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span><span>JavaScript</span><span>C</span><span>C++</span>
+    <span>HTML</span><span>CSS</span><span>Django</span>
+    <span>MySQL</span><span>Git</span><span>GitHub</span>
+  </div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Web Development Intern</h3>
+      <p>Developed web applications using Django and collaborated with a 5-member team using GitHub. Applied Agile methodologies and version control.</p>
+    </div>
+    <div class="card">
+      <h3>Python Intern</h3>
+      <p>Worked on Python mini-projects and strengthened problem-solving and logical thinking skills.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Blood Donor System</h3>
+      <p>Secure web application using PHP & MySQL with authentication features.</p>
+    </div>
+    <div class="card">
+      <h3>Sign Language Translator</h3>
+      <p>Real-time translator using OpenCV and Computer Vision.</p>
+    </div>
+    <div class="card">
+      <h3>QR Code Generator</h3>
+      <p>Tool for seamless data sharing using JavaScript.</p>
+    </div>
+    <div class="card">
+      <h3>AI Resume Builder</h3>
+      <p>Built using Python, Flask, and OpenAI API.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: rajanathira572@gmail.com</p>
+  <p>GitHub: <a href="#">Add your link</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Athira Rajan</p>
+</footer>
+
+</body>
+</html>
